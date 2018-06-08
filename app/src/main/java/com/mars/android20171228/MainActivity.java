@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //引數放自己,目標類別
         it.putExtra( "data",ed.getText().toString());//得到目前頁面的資料
         startActivity(it);//開啟一個頁面(intent的一個方法)
-        Log.d("AA","AA");
+        Log.d("BB","BB");
     }
 
 
