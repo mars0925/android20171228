@@ -18,12 +18,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv = findViewById(R.id.textView5);
         tv2 = findViewById(R.id.textView6);
+
+
+
+
+        //現在我們可以舒適自在地對一個專案做出貢獻了，所以我們來看看另一個面向：建立、維護以及管理一個專案。
     }
 
-    public  void click1 (View v)
-    {
 
-    }
 
     public  void click2 (View v)
     {
