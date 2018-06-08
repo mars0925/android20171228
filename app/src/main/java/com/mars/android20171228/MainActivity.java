@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv = findViewById(R.id.textView5);
         tv2 = findViewById(R.id.textView6);
+        //頁看到這樣的畫面，按下+ New repository 來新增一個專案。
     }
-
 
     public  void click2 (View v)
     {
