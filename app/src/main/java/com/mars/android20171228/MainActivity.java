@@ -19,11 +19,12 @@ public class MainActivity extends AppCompatActivity {
         tv = findViewById(R.id.textView5);
         tv2 = findViewById(R.id.textView6);
 
-
-
-
-        //現在我們可以舒適自在地對一個專案做出貢獻了，所以我們來看看另一個面向：建立、維護以及管理一個專案。
+        //頁看到這樣的畫面，按下+ New repository 來新增一個專案。
     }
+
+
+
+
 
 
 
