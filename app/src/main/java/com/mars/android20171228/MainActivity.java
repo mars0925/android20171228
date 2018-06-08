@@ -3,6 +3,7 @@ package com.mars.android20171228;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -18,15 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv = findViewById(R.id.textView5);
         tv2 = findViewById(R.id.textView6);
-
         //頁看到這樣的畫面，按下+ New repository 來新增一個專案。
     }
-
-
-
-
-
-
 
     public  void click2 (View v)
     {
@@ -35,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //引數放自己,目標類別
         it.putExtra( "data",ed.getText().toString());//得到目前頁面的資料
         startActivity(it);//開啟一個頁面(intent的一個方法)
+        Log.d("AA","AA");
     }
 
 
